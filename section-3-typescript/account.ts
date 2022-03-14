@@ -1,11 +1,11 @@
-import { accountInterface } from './account.interface';
+import { IAccount } from './account.interface';
 
-const account: accountInterface = {
+const account: IAccount = {
     name: 'Luis',
     balance: 10
 }
 
-let accounts: Array<accountInterface>;
+let accounts: Array<IAccount>;
 
 accounts = [
     {
@@ -22,3 +22,11 @@ accounts = [
         status: 'Good'
     }
 ]
+
+class InvestmentAccount implements IAccount {
+    constructor(public name, public balance) {}
+
+    private withdraw() {
+        
+    }
+}
