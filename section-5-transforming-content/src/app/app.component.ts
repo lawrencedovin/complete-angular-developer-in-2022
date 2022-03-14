@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'section-5-transforming-content';
+  name = 'lawrence dovin';
+  currentDate = new Date();
 }
