@@ -9,4 +9,6 @@ export class AppComponent {
   title = 'section-5-transforming-content';
   name = 'lawrence dovin';
   currentDate = new Date();
+  cost = 3144;
+  temperature = 25.3
 }
