@@ -10,5 +10,10 @@ export class AppComponent {
   name = 'lawrence dovin';
   currentDate = new Date();
   cost = 3144;
-  temperature = 25.3
+  temperature = 25.3;
+  blueClass = true;
+
+  isBlueClass() {
+    this.blueClass = !this.blueClass
+  }
 }

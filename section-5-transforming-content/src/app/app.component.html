@@ -2,3 +2,5 @@
 <p>Current Date: {{ currentDate | date: 'mediumDate' }}</p>
 <p>Cost: {{ cost | currency: 'PHP' }}</p>
 <p>Temperature: {{ temperature | number: '1.0-0' }}</p>
+
+<button [ngClass]="blueClass ? 'blue' : 'not-blue'" (click)="isBlueClass()">Change</button>
